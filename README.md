@@ -12,7 +12,7 @@ cd espmusic
 
 1. Create a formatted wav file:
 ```bash
-ffmpeg -i <input_file> -ar 3200 -ac 1 -acodec pcm_u8 <output_file.wav>
+ffmpeg -i <input_file> -ar 32000 -ac 1 -acodec pcm_u8 <output_file.wav>
 ````
 2. Get your ip address: open a terminal and type `ifconfig` or `ipconfig` and it will probably be near the word "inet"
 3. Replace the wifi, password, and tcp_server in the [arduino sketch]()
