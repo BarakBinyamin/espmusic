@@ -1,15 +1,15 @@
 #include <WiFi.h>
 
-const char* WIFI = "Spongebob’s Pineapple";
-const char* PASS = "sandycheeks";
+const char* WIFI = "WIFI";
+const char* PASS = "PASSWORD";
 
 WiFiClient client;
 
 #define TCP_SERVER                  "192.168.4.141"
 #define TCP_PORT                     8000
-#define PACKET_SIZE                  800
+#define PACKET_SIZE                  6400
 
-#define BUFFFERMAX                   8000
+#define BUFFFERMAX                   32000
 hw_timer_t * timer                 = NULL; 
 portMUX_TYPE timerMux              = portMUX_INITIALIZER_UNLOCKED; 
 uint8_t      dataBuffer[BUFFFERMAX];

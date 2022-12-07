@@ -4,7 +4,7 @@ const fs  = require("fs")
 const PATH         = 'example.wav'
 const HOST         = '0.0.0.0'
 const PORT         = 8000
-const PACKET_SIZE  = 800
+const PACKET_SIZE  = 6400
 let   packet_number= 0
 
 function getpacket(packetNum){
