@@ -4,6 +4,14 @@ A minimal server and sketch to get ok sound with one or many esp32+speakers
 
 Much thanks to julianfschroeter for providing the [java version of this project](https://www.hackster.io/julianfschroeter/stream-your-audio-on-the-esp32-2e4661).
 
+## Requirements
+1. [An esp32 dev board]()
+2. [A mini speaker]()
+3. [mini amplifier]()
+4. [Arduino IDE]()
+5. [Setup Arduino IDE for esp32]()
+6. [Node JS]()
+
 ## Quickstart
 ```bash
 git clone espmusic
@@ -21,10 +29,3 @@ ffmpeg -i <input_file> -ar 32000 -ac 1 -acodec pcm_u8 <output_file.wav>
 ```bash
 node index.js #Launch the music server
 ```
-
-## Requirements
-1. [An esp32 dev board]()
-2. [A mini speaker]()
-3. [Arduino IDE]()
-4. [Setup Arduino IDE for esp32]()
-5. [Node JS]()
