@@ -5,12 +5,12 @@ A minimal server and sketch to get ok sound with one or many esp32+speakers
 Much thanks to julianfschroeter for providing the [java version of this project](https://www.hackster.io/julianfschroeter/stream-your-audio-on-the-esp32-2e4661)
 
 ## Requirements
-1. [An esp32 dev board]()
-2. [A mini speaker]()
-3. [mini amplifier]()
-4. [Arduino IDE]()
-5. [Setup Arduino IDE for esp32]()
-6. [Node JS]()
+1. [An esp32 dev board](https://www.amazon.com/s?k=esp32+dev+board&crid=3CI4H0N9A2J4&sprefix=esp+dev+b%2Caps%2C118&ref=nb_sb_ss_ts-doa-p_1_9)
+2. [A mini speaker](https://www.amazon.com/arduino-speaker/s?k=arduino+speaker)
+3. [mini amplifier](https://www.amazon.com/arduino-amplifier/s?k=arduino+amplifier)
+4. [Arduino IDE](https://www.arduino.cc/en/software)
+5. [Setup Arduino IDE for esp32](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
+6. [Node JS](https://nodejs.org/en)
 
 ## Quickstart
 ```bash
