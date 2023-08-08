@@ -2,7 +2,7 @@
 
 A minimal server and sketch to get ok sound with one or many esp32+speakers
 
-Much thanks to julianfschroeter for providing the [java version of this project](https://www.hackster.io/julianfschroeter/stream-your-audio-on-the-esp32-2e4661).
+Much thanks to julianfschroeter for providing the [java version of this project](https://www.hackster.io/julianfschroeter/stream-your-audio-on-the-esp32-2e4661)
 
 ## Requirements
 1. [An esp32 dev board]()
