@@ -105,5 +105,5 @@ void setup() {
 
 void loop() {
   getnextPacketIfNeeded();
-  // interupt activates every once and a while and play music
+  // interrupt activates every once and a while to play music
 }
